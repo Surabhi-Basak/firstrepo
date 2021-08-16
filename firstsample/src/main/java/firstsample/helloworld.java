@@ -2,9 +2,12 @@ package firstsample;
 
 public class helloworld {
 
-	public static void main(String[] args) {
+	public void display() {
 		System.out.print("Hello World");
 
+	}
+	public void print() {
+		display();
 	}
 
 }
